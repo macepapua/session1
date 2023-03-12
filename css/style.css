@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+nav{
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0  100px 0 80px; 
+   height: 50px; 
+}
+/* bagian nav manu */
+nav .menu{
+   display: flex; 
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+nav .menu >li >a{
+    padding: 10px 15px;
+}
+ nav .daftar{
+    font-size: 12%;
+ }
+ nav .menu li a{
+    color:white;
+    text-decoration: none;
+    font-size: 200; 
+    text-transform: capitalize;
+ }
+ nav .menu li{
+    list-style: none;
+    padding: 10px;
+ }
+ nav .menu li:hover{
+    background-color:#808080;
+ }
+
+ /* dropdown */
+  nav .menu .dropdown{
+    display: none;
+  }
+  nav ul li:hover .dropdown{
+    display: block;
+    background-color: black;
+    position: absolute;
+    margin-top:13px ;
+    padding: 3px;
+    border-radius: 3px;
+  }  
+  /* ini jumbotron */
+  .jumbotron{
+   margin: auto;
+   text-align: center;
+   background-color: #e8e8e8;
+   width: 85%;
+   height:210px;
+   border-radius: 3px;
+  }
+  /* ini img pada card */
+  .card-img-top{
+   height: 115px;
+  }
+  /* ini bagian footer  */
+  .foot{
+   margin: auto;
+   background-color: #808080;
+   height: 25px;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+   padding: 0  100px 0 100px; 
+   height: 40px; 
+   align-items: center;
+  }
+
+  .satu{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: left;
+   margin: -5px;
+  }
+  .dua{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: right;
+   margin: -5px;
+  }
+
+  /* bagian style portofoli */
+.bg{
+   background-image: url(../img/background.jpg);
+   height: 563px;
+   width: 50%;
+}
+.profil{
+   position: absolute;
+   margin: auto;
+   left: 51%;
+   top: 60px;
+}
+.profil p{
+   text-align: justify;
+}
+.gambar{
+   width: 21%;
+   height: 205px;
+   position: absolute;
+   box-shadow: #808080;
+   left: 78%;
+   top:60%;
+}
+.gambar1{
+   width: 25%;
+   height:205px;
+   position: absolute;
+   left: 51%;
+   top:392px ;
+}
